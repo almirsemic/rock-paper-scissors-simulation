@@ -23,6 +23,8 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### The principle of the game is (paper rock scissors)
+
 ### Images
 
 
@@ -32,3 +34,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ![Untitled3](https://user-images.githubusercontent.com/90575221/205176599-43c08517-260c-46d6-9903-58317f26ad6f.png)
 ![Untitled4](https://user-images.githubusercontent.com/90575221/205176604-65abc85c-55da-4f5a-ace3-6e8d3416c55d.png)
 ![Untitled5](https://user-images.githubusercontent.com/90575221/205176610-1823c54f-4ecf-475e-8b35-ba13baea5b88.png)
+![Untitled6](https://user-images.githubusercontent.com/90575221/205177126-a3b420bf-10e2-46f5-8b88-69bc85a0aa32.png)
