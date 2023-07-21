@@ -24,6 +24,10 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### The principle of the game is (paper rock scissors)
+### Link to Vercel where you can view the app
+```
+https://rock-paper-scissors-simulation-snowy.vercel.app
+```
 
 ### Images
 
