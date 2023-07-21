@@ -8,7 +8,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-sm-5 col-9 text-center mt-5" v-for="(image, index) in imagesPath" :key="index">
-                    <img @click="setImagePath($event)" :src="require('../assets/avatar_' + image + '.jpg')"
+                    <img @click="setImagePath(image)" :src="require('../assets/avatar_' + image + '.jpg')"
                         width="140px" height="140px" class="rounded-circle">
                 </div>
                 <div class="col-lg-6 col-sm-5 col-9 text-center mt-5">
@@ -27,12 +27,11 @@ export default {
         }
     },
     methods: {
-        setImagePath(event) {
-            if (event == 'random') {
+        setImagePath(image) {
+            if (image == 'random') {
                 localStorage.setItem("selectedWarrior", this.imagesPath[Math.floor(Math.random() * 5)])
             } else {
-                let imagePath = event.path[0].currentSrc.slice(event.path[0].currentSrc.indexOf("_") + 1, event.path[0].currentSrc.indexOf("."))
-                localStorage.setItem("selectedWarrior", imagePath)
+                localStorage.setItem("selectedWarrior", image)
             }
             this.$router.replace("/")
         }
